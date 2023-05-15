@@ -24,7 +24,7 @@ BOT.on("ready", () => {
   });
 
   // (Second) (Minute) (Hour) (Day) (Month) (Day of Week) --> 0 0 6 * * * --> Se lance tous les jours à 6h00:00s
-  const job = schedule.scheduleJob("0 0 17 * * *", () => {
+  const job = schedule.scheduleJob("0 0 16 * * *", () => {
     require("./assets/functions/pingUser")(BOT, "1107689109851480104");
   });
 
