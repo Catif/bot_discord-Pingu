@@ -19,7 +19,9 @@ module.exports = (BOT, idChannel) => {
   const dayPingList = pingList[dayName];
 
   if (dayPingList) {
-    const pingListString = dayPingList.map((u) => u.username).join(", ");
+    const pingListString = dayPingList
+      .map((u) => "<@!" + u.id + ">")
+      .join(", ");
     channel.send(`Ping du jour : ${pingListString}`);
   } else {
     channel.send(`Aucun ping aujourd'hui`);
