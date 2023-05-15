@@ -1,0 +1,26 @@
+{
+  "name": "bot-discord",
+  "description": "A repository with all my bots.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Catif/bot_discord-Pingu.git"
+  },
+  "author": "Bradley B.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Catif/bot_discord-Pingu/issues"
+  },
+  "homepage": "https://github.com/Catif/bot_discord-Pingu#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "install": "^0.13.0",
+    "node-fetch": "^2.6.7",
+    "node-schedule": "^2.1.0"
+  }
+}
